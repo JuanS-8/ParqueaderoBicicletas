@@ -23,13 +23,5 @@ public class Hora {
     public void asignarHoraSalida(LocalDateTime horaSalida) {
         this.horaSalida = horaSalida;
     }
-
-    //Calcular Minutos
-    public long obtenerMinutos() {
-        if (horaIngreso == null || horaSalida == null) {
-            return 0;
-        }
-        return java.time.Duration.between(horaIngreso, horaSalida).toMinutes();
-    }
 }
 

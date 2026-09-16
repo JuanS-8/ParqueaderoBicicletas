@@ -67,12 +67,4 @@ public class Cupo {
         this.pago = pago;
     }
 
-    //Libera el cupo
-    public void liberar() {
-        this.ocupado = false;
-        this.bicicleta = null;
-        this.propietario = null;
-        this.hora = null;
-        this.pago = null;
-    }
 }
