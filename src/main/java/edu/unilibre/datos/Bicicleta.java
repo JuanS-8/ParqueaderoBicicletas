@@ -4,9 +4,6 @@ public class Bicicleta {
         private String serial;
         private String placa;
 
-        public Bicicleta() {
-        }
-
         public Bicicleta(String serial, String placa) {
             this.serial = serial;
             this.placa = placa;

@@ -6,8 +6,6 @@ public class Pago {
     private String metodoPago;
     private LocalDateTime fecha;
 
-    public Pago() {
-    }
 
     public Pago(double valor, String metodoPago, LocalDateTime fecha) {
         this.valor = valor;

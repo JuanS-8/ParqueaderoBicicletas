@@ -4,9 +4,6 @@ public class Propietario {
     private String cedula;
     private String nombre;
 
-    public Propietario() {
-    }
-
     public Propietario(String cedula, String nombre) {
         this.cedula = cedula;
         this.nombre = nombre;
