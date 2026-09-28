@@ -46,7 +46,7 @@ class GestionMetodosTest {
     void RegistrarSalidaExitoso() {
         gestion.registrarIngreso(parqueadero, "SN123", "ABC-123", "100111", "Juan");
 
-        double valor = gestion.registrarSalida(parqueadero, "SN123", "1001");
+        double valor = gestion.registrarSalida(parqueadero, "SN123", "100111");
         assertTrue(valor >= 0);
     }
 
